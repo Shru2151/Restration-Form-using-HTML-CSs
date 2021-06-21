@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: gray;
+    
+    
+    font: normal 16px Arial, Helvetica,sans-serif;
+}
+
+.container{
+    width:80% /*960px /*for eg 500px bhi lele*/;
+    margin: auto;
+}
+.box-1{
+    background-color: #c98810;
+    color: #0e0d0d;
+    border: 5px #0f0f0ff8 solid;
+    padding-top: 10px;
+    padding-left: 135px;
+    padding-bottom: 10px;
+    margin: 20px;
+    text-decoration: underline;
+}
+.my-form{
+    border: 3px #0f0f0ff8 solid;
+    background-color: #d3cec5;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin: 20px;
+    
+}
+ .my-form .form-group{
+     padding-bottom: 15px;
+ } 
+
+.my-form label{
+    display:block;
+}
+
+.my-form input[type='text'], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+.block{
+    float: left;
+    width: 30%;
+
+}
+
+
+
+
+
+
